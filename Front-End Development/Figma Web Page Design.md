@@ -1,8 +1,8 @@
 # Complete Figma Web Page Design & Prototyping Guide
 
-A comprehensive, step-by-step guide to logging into Figma, setting up a project, designing a web layout, and creating interactive button transitions.
+- **Topic:** Complete Figma Web Page Design & Prototyping Guide
 
----
+- **Instructor: RAHUL KP**
 
 ## 1. Getting Started: Account Setup & File Creation
 
