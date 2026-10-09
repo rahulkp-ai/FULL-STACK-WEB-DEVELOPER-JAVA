@@ -75,7 +75,7 @@
   - [ ] Spring Framework
   - [ ] Hibernate
 
-- [ ] **8. Cloud Computing & Version Control: Git & GitHub**
+- [x] **8. Cloud Computing & Version Control: Git & GitHub**
   - [ ] What is Git and GitLab?
     - [ ] History of Git
     - [ ] Design Principles
