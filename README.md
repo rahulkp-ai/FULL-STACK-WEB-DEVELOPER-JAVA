@@ -1,0 +1,113 @@
+# Full-Stack Java Web Developer Checklist
+
+- [ ] **1. Front-End Development: UI Designing**
+  - [ ] Introduction to UI Design
+  - [ ] UI Designing Fundamentals
+    - [ ] Colour Concepts & Colour Theory
+    - [ ] Typography
+    - [ ] Menus
+    - [ ] Tools
+  - [ ] Real-time Designing of a Professional Website
+
+- [ ] **2. Core Java Programming**
+  - [ ] IDE Tools – Eclipse (Installing & Features)
+  - [ ] Overview & Features of JAVA
+  - [ ] Programming Structures in Java
+  - [ ] Arrays
+  - [ ] Strings
+  - [ ] Collection Types
+  - [ ] Wrapper Classes
+  - [ ] Utility Classes
+  - [ ] OOPS Features
+  - [ ] Exceptions
+  - [ ] Multithreading
+
+- [ ] **3. RDBMS - SQL Server Programming**
+  - [ ] SQL RDBMS Concepts
+  - [ ] SQL Data Types
+  - [ ] SQL Syntax
+  - [ ] SQL Operators
+  - [ ] SQL Joins
+  - [ ] Views
+  - [ ] Triggers & Cursors
+  - [ ] Stored Procedures
+  - [ ] SQL Date Functions
+  - [ ] SQL Useful Functions
+  - [ ] SQL Subqueries
+  - [ ] Database Backup & Restore
+
+- [ ] **4. JDBC (Java Database Connectivity)**
+  - [ ] JDBC Drivers
+  - [ ] Advantages of JDBC
+  - [ ] Environment Setup
+  - [ ] Connectivity with MySQL using JDBC
+
+- [ ] **5. Servlets**
+  - [ ] Introduction to Web Servers
+  - [ ] Introduction to Servlets
+  - [ ] Environment Setup
+  - [ ] Servlet API
+  - [ ] Servlet Request & Response
+  - [ ] Servlet Collaboration
+  - [ ] Database Operations using Servlets
+
+- [ ] **6. JSP (JavaServer Pages)**
+  - [ ] Introduction to Web Servers & Servlets
+  - [ ] Environment Setup
+  - [ ] Life Cycle
+  - [ ] Working with Servlets
+  - [ ] Servlet Forms
+  - [ ] Writing Filters
+  - [ ] Exceptions
+  - [ ] Cookies Handling
+  - [ ] Session Tracking
+  - [ ] Database Access
+  - [ ] File Uploading
+  - [ ] Handling Date
+  - [ ] Page Redirection
+  - [ ] Hits Counter
+  - [ ] Auto Refresh
+  - [ ] Sending Email
+  - [ ] Internationalization
+  - [ ] Annotations
+
+- [ ] **7. Frameworks**
+  - [ ] Spring Framework
+  - [ ] Hibernate
+
+- [ ] **8. Cloud Computing & Version Control: Git & GitHub**
+  - [ ] What is Git and GitLab?
+    - [ ] History of Git
+    - [ ] Design Principles
+    - [ ] Distributed Version Control
+  - [ ] Installing Git
+    - [ ] Account Setup
+    - [ ] Installing SourceTree Git GUI
+  - [ ] Git File Management
+    - [ ] Common Git Commands
+    - [ ] Configuring Git
+    - [ ] Creating Repositories
+    - [ ] Creating a Commit
+  - [ ] Branching
+    - [ ] Visualizing Branches
+    - [ ] Branch Naming Conventions
+    - [ ] Creating a New Branch
+    - [ ] Handling Merge Conflicts
+  - [ ] Pull Requests / Merge Requests
+    - [ ] Creating a Merge Request
+    - [ ] Accepting a Merge Request
+    - [ ] Rejecting a Merge Request
+  - [ ] Common Workflows
+    - [ ] Centralized Flow
+    - [ ] GitHub Flow
+    - [ ] Git Flow
+
+- [ ] **9. Working with Servers**
+  - [ ] Project Hosting on the Internet
+  - [ ] Payment Gateway Integration
+  - [ ] API Integration
+  - [ ] Site Lock
+  - [ ] SSL Configuration
+
+- [ ] **10. Project Work**
+  - [ ] Capstone / Real-World Application Development
