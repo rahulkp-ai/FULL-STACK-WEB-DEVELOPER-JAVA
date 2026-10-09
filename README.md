@@ -1,6 +1,6 @@
 # Full-Stack Java Web Developer Checklist
 
-- [ ] **1. Front-End Development: UI Designing**
+- [x] **1. Front-End Development: UI Designing**
   - [ ] Introduction to UI Design
   - [ ] UI Designing Fundamentals
     - [ ] Colour Concepts & Colour Theory
