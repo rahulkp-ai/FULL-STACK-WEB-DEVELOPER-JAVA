@@ -9,7 +9,7 @@
     - [ ] Tools
   - [ ] Real-time Designing of a Professional Website
 
-- [ ] **2. Core Java Programming**
+- [x] **2. Core Java Programming**
   - [ ] IDE Tools – Eclipse (Installing & Features)
   - [ ] Overview & Features of JAVA
   - [ ] Programming Structures in Java
