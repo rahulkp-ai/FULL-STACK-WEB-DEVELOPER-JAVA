@@ -1,11 +1,12 @@
-# Lecture Guide: Object-Oriented Programming (OOP) & Exception Handling in Java
+# Object-Oriented Programming (OOP) & Exception Handling in Java
 
-**Target Duration:** 120 Minutes (2 Hours)  
-**Level:** Intermediate
+- **Topic:** Java
+
+- **Instructor: RAHUL KP**
 
 ---
 
-## Fundamental Pillars of OOP (40 Mins)
+## Fundamental Pillars of OOP
 
 Object-Oriented Programming (OOP) structures applications around objects—data containers bundled with behavior—rather than functions and logic alone.
 
@@ -137,38 +138,6 @@ public class PolymorphismDemo {
         // Calls overridden subclass implementation dynamically at runtime
         myVehicle.startEngine();
     }
-}
-
-```
-
----
-
-## Advanced OOP Features
-
-### Method Overloading vs. Method Overriding
-
-| Feature              | Method Overloading                  | Method Overriding               |
-| -------------------- | ----------------------------------- | ------------------------------- |
-| **Binding Time**     | Compile-time (Static)               | Runtime (Dynamic)               |
-| **Location**         | Same class                          | Subclass vs Superclass          |
-| **Method Signature** | Same name, **different parameters** | **Identical name & parameters** |
-| **Return Type**      | Can be different                    | Must be same or covariant       |
-
-```java
-// Overloading Example (Same class, different parameters)
-public class Calculator {
-    public int add(int a, int b) { return a + b; }
-    public double add(double a, double b) { return a + b; }
-}
-
-// Overriding Example (Subclass modifies superclass behavior)
-class Animal {
-    public void makeSound() { System.out.println("Animal sound"); }
-}
-
-class Dog extends Animal {
-    @Override
-    public void makeSound() { System.out.println("Bark!"); }
 }
 
 ```

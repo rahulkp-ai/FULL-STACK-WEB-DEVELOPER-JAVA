@@ -1,7 +1,8 @@
-# Lecture Guide: Multithreading in Java
+# Multithreading in Java
 
-**Target Duration:** 60 Minutes (1 Hour)  
-**Level:** Intermediate
+- **Topic:** Java
+
+- **Instructor: RAHUL KP**
 
 ---
 

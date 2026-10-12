@@ -1,7 +1,8 @@
-# Lecture Guide: Strings, Collections & Utilities in Java
+# Strings, Collections & Utilities in Java
 
-**Target Duration:** 120 Minutes (2 Hours)  
-**Level:** Intermediate
+- **Topic:** Java
+
+- **Instructor: RAHUL KP**
 
 ---
 
@@ -183,39 +184,6 @@ Wrapper classes wrap primitive data types into object equivalents, enabling prim
 | `double`       | `Double`      |
 | `char`         | `Character`   |
 | `boolean`      | `Boolean`     |
-
-### Autoboxing & Unboxing
-
-- **Autoboxing:** Automatic conversion of a primitive type into its corresponding wrapper object.
-- **Unboxing:** Automatic conversion of a wrapper object into its corresponding primitive type.
-
-```java
-import java.util.ArrayList;
-import java.util.List;
-
-public class WrapperDemo {
-    public static void main(String[] args) {
-        int primitiveNum = 25;
-
-        // Autoboxing
-        Integer wrappedNum = primitiveNum;
-
-        List<Integer> numberList = new ArrayList<>();
-        numberList.add(100); // Autoboxing primitive int 100 to Integer object
-
-        // Unboxing
-        int value = numberList.get(0); // Converts Integer object back to primitive int
-
-        // Utility Methods in Wrapper Classes
-        int parsed = Integer.parseInt("12345");
-        String binaryStr = Integer.toBinaryString( parsed );
-        boolean isDigit = Character.isDigit('7');
-
-        System.out.println("Parsed: " + parsed + " | Binary: " + binaryStr);
-    }
-}
-
-```
 
 ---
 

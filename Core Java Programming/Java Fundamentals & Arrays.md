@@ -1,8 +1,8 @@
-# Lecture Guide: Java Fundamentals & Arrays
+# Java Fundamentals & Arrays
 
-**Target Duration:** 120 Minutes (2 Hours)
+- **Topic:** Java
 
-**Level:** Introductory
+- **Instructor: RAHUL KP**
 
 ---
 
