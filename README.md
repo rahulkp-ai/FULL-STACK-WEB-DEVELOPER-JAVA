@@ -1,13 +1,13 @@
 # Full-Stack Java Web Developer Checklist
 
 - [x] **1. Front-End Development: UI Designing**
-  - [ ] Introduction to UI Design
-  - [ ] UI Designing Fundamentals
-    - [ ] Colour Concepts & Colour Theory
-    - [ ] Typography
-    - [ ] Menus
-    - [ ] Tools
-  - [ ] Real-time Designing of a Professional Website
+  - [x] Introduction to UI Design
+  - [x] UI Designing Fundamentals
+    - [x] Colour Concepts & Colour Theory
+    - [x] Typography
+    - [x] Menus
+    - [x] Tools
+  - [x] Real-time Designing of a Professional Website
 
 - [x] **2. Core Java Programming**
   - [ ] IDE Tools – Eclipse (Installing & Features)
@@ -76,31 +76,31 @@
   - [ ] Hibernate
 
 - [x] **8. Cloud Computing & Version Control: Git & GitHub**
-  - [ ] What is Git and GitLab?
-    - [ ] History of Git
-    - [ ] Design Principles
-    - [ ] Distributed Version Control
-  - [ ] Installing Git
-    - [ ] Account Setup
-    - [ ] Installing SourceTree Git GUI
-  - [ ] Git File Management
-    - [ ] Common Git Commands
-    - [ ] Configuring Git
-    - [ ] Creating Repositories
-    - [ ] Creating a Commit
-  - [ ] Branching
-    - [ ] Visualizing Branches
-    - [ ] Branch Naming Conventions
-    - [ ] Creating a New Branch
+  - [x] What is Git and GitLab?
+    - [x] History of Git
+    - [x] Design Principles
+    - [x] Distributed Version Control
+  - [x] Installing Git
+    - [x] Account Setup
+    - [x] Installing SourceTree Git GUI
+  - [x] Git File Management
+    - [x] Common Git Commands
+    - [x] Configuring Git
+    - [x] Creating Repositories
+    - [x] Creating a Commit
+  - [x] Branching
+    - [x] Visualizing Branches
+    - [x] Branch Naming Conventions
+    - [x] Creating a New Branch
     - [ ] Handling Merge Conflicts
   - [ ] Pull Requests / Merge Requests
     - [ ] Creating a Merge Request
     - [ ] Accepting a Merge Request
     - [ ] Rejecting a Merge Request
-  - [ ] Common Workflows
-    - [ ] Centralized Flow
-    - [ ] GitHub Flow
-    - [ ] Git Flow
+  - [x] Common Workflows
+    - [x] Centralized Flow
+    - [x] GitHub Flow
+    - [x] Git Flow
 
 - [ ] **9. Working with Servers**
   - [ ] Project Hosting on the Internet
