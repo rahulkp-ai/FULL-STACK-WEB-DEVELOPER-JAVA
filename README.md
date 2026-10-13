@@ -10,10 +10,10 @@
   - [x] Real-time Designing of a Professional Website
 
 - [x] **2. Core Java Programming**
-  - [ ] IDE Tools – Eclipse (Installing & Features)
-  - [ ] Overview & Features of JAVA
-  - [ ] Programming Structures in Java
-  - [ ] Arrays
+  - [x] IDE Tools – Eclipse (Installing & Features)
+  - [x] Overview & Features of JAVA
+  - [x] Programming Structures in Java
+  - [x] Arrays
   - [ ] Strings
   - [ ] Collection Types
   - [ ] Wrapper Classes
