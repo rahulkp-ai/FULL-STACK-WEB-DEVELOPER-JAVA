@@ -1,5 +1,9 @@
 ## Build a Console Calculator Application
 
+- **Topic:** Assignment
+
+- **Instructor: RAHUL KP**
+
 ---
 
 ### **Objective**
