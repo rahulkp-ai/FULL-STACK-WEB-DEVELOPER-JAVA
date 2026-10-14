@@ -14,10 +14,10 @@
   - [x] Overview & Features of JAVA
   - [x] Programming Structures in Java
   - [x] Arrays
-  - [ ] Strings
-  - [ ] Collection Types
-  - [ ] Wrapper Classes
-  - [ ] Utility Classes
+  - [x] Strings
+  - [x] Collection Types
+  - [x] Wrapper Classes
+  - [x] Utility Classes
   - [ ] OOPS Features
   - [ ] Exceptions
   - [ ] Multithreading
