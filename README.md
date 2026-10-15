@@ -18,8 +18,8 @@
   - [x] Collection Types
   - [x] Wrapper Classes
   - [x] Utility Classes
-  - [ ] OOPS Features
-  - [ ] Exceptions
+  - [x] OOPS Features
+  - [x] Exceptions
   - [ ] Multithreading
 
 - [ ] **3. RDBMS - SQL Server Programming**
