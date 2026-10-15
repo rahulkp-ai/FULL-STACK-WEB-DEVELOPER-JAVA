@@ -22,9 +22,9 @@
   - [x] Exceptions
   - [ ] Multithreading
 
-- [ ] **3. RDBMS - SQL Server Programming**
-  - [ ] SQL RDBMS Concepts
-  - [ ] SQL Data Types
+- [x] **3. RDBMS - SQL Server Programming**
+  - [x] SQL RDBMS Concepts
+  - [x] SQL Data Types
   - [ ] SQL Syntax
   - [ ] SQL Operators
   - [ ] SQL Joins
