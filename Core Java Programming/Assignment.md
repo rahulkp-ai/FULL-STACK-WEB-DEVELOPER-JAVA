@@ -22,7 +22,6 @@ Your calculator must support the following five basic mathematical operations:
 - Subtraction ($a - b$)
 - Multiplication ($a \times b$)
 - Division ($a \div b$, with error handling for division by zero)
-- Modulus / Remainder ($a \pmod b$)
 
 #### **2. Technical Requirements**
 
