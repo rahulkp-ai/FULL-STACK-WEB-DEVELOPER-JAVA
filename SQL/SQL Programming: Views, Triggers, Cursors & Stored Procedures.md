@@ -1,4 +1,4 @@
-# SQL Programming: Views, Triggers, Cursors & Stored Procedures (SQL Server)
+# SQL : Views, Triggers, Cursors & Stored Procedures (SQL Server)
 
 - **Topic:** RDBMS & SQL Server Programming (Advanced Database Objects)
 - **Instructor:** RAHUL KP
@@ -11,15 +11,9 @@
 
 A **View** is a database object that stores a pre-packaged `SELECT` query. It does not physically store the underlying data itself (unless it is an _Indexed View_); instead, it acts as a **virtual table** computed dynamically every time it is referenced.
 
-```mermaid
-graph TD
-    A[Base Table: Employees] -->|Virtualized via Query| C[View: vw_ActiveEmployees]
-    B[Base Table: Departments] -->|Virtualized via Query| C
-    C --> D[Client Application / Report]
-
-```
-
 ### 2. Key Benefits of Views
+
+![View](../figs/SQL/View.png)
 
 - **Security & Abstraction:** Hides complex multi-table joins, calculations, and sensitive columns (like salaries) from end-users or reporting applications.
 - **Consistency:** Centralizes complex business logic into a single database object so multiple applications query the exact same logic.
@@ -108,13 +102,7 @@ SQL Server handles trigger data logging via two temporary, memory-resident logic
 - **`INSERTED`:** Contains copies of rows added or updated (post-image data).
 - **`DELETED`:** Contains copies of rows deleted or updated (pre-image data).
 
-```mermaid
-flowchart LR
-    DML[INSERT / UPDATE / DELETE] --> IT[(Trigger Execution)]
-    IT -->|New / Modified Data| INS[(INSERTED Table)]
-    IT -->|Old / Modified Data| DEL[(DELETED Table)]
-
-```
+![Magic Tables](../figs/SQL/Magic%20Tables.png)
 
 ### 3. Creating an Audit/Log Trigger
 

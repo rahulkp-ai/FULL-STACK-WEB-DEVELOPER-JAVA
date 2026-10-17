@@ -6,7 +6,7 @@
 
 - **Instructor: RAHUL KP**
 
-## Part 1: SQL RDBMS Concepts
+## SQL RDBMS Concepts
 
 ### 1. What is an RDBMS?
 
@@ -36,7 +36,7 @@ SQL Server guarantees data reliability through ACID transactions:
 
 ---
 
-## Part 2: SQL Server Data Types
+## SQL Server Data Types
 
 Choosing the correct data type is critical for performance, storage optimization, and data integrity. SQL Server categorizes data types into several core families.
 
@@ -75,7 +75,7 @@ Choosing the correct data type is critical for performance, storage optimization
 
 ---
 
-## Part 3: Introduction to SQL Server Programming & T-SQL
+## Introduction to SQL Server Programming & T-SQL
 
 Transact-SQL (T-SQL) is Microsoft's proprietary extension to SQL, adding procedural programming capabilities, variables, and error handling.
 

@@ -30,17 +30,7 @@ ORDER BY [Column1] ASC;
 
 While you write a query starting with `SELECT`, SQL Server logically processes the clauses in a specific sequence:
 
-```mermaid
-flowchart RL
-    A[1. FROM / JOINs] --> B[2. WHERE]
-    B --> C[3. GROUP BY]
-    C --> D[4. HAVING]
-    D --> E[5. SELECT / Expressions]
-    E --> F[6. DISTINCT]
-    F --> G[7. ORDER BY]
-    G --> H[8. TOP / OFFSET-FETCH]
-
-```
+![Logical Processing Order of a Query](../figs/SQL/Logical%20Processing%20Order%20of%20a%20Query.png)
 
 ### 3. Essential Clauses & Modifiers
 
@@ -145,20 +135,7 @@ Joins are used to combine rows from two or more tables based on a related column
 
 Databases normalize data into multiple tables to reduce redundancy. Joins bring this data back together logically.
 
-```mermaid
-graph LR
-    subgraph "Table A (Employees)"
-        A1[Employee ID 1: Rahul]
-        A2[Employee ID 2: Priya]
-    end
-    subgraph "Table B (Departments)"
-        B1[Department ID 1: IT]
-        B2[Department ID 2: HR]
-    end
-    A1 -->|DepartmentID = 1| B1
-    A2 -->|DepartmentID = 1| B1
-
-```
+![Visualizing Relational Data](../figs/SQL/Visualizing%20Relational%20Data.png)
 
 ### 2. Types of Joins (Set & Venn Visualizations)
 
@@ -171,36 +148,12 @@ SELECT * FROM A INNER JOIN B ON A.Key = B.Key;
 
 ```
 
-```mermaid
-graph LR
-    subgraph "INNER JOIN (Intersection)"
-        A["Table A (Excluded)"] --- AB((Intersection<br/>Matched Only))
-        AB --- B["Table B (Excluded)"]
-    end
-    style AB fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style A fill:#f9f9f9,stroke:#333,stroke-dasharray: 5 5
-    style B fill:#f9f9f9,stroke:#333,stroke-dasharray: 5 5
-
-```
-
 #### B. LEFT (OUTER) JOIN
 
 Returns **all** records from the left table, and the matched records from the right table. If no match is found, the right side contains `NULL`.
 
 ```sql
 SELECT * FROM A LEFT JOIN B ON A.Key = B.Key;
-
-```
-
-```mermaid
-graph LR
-    subgraph "LEFT JOIN (All A + Matches)"
-        A["Table A (All Kept)"] --- AB((Intersection<br/>Matched))
-        AB --- B["Table B (Unmatched Dropped)"]
-    end
-    style A fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style AB fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style B fill:#f9f9f9,stroke:#333,stroke-dasharray: 5 5
 
 ```
 
@@ -213,36 +166,12 @@ SELECT * FROM A RIGHT JOIN B ON A.Key = B.Key;
 
 ```
 
-```mermaid
-graph LR
-    subgraph "RIGHT JOIN (All B + Matches)"
-        A["Table A (Unmatched Dropped)"] --- AB((Intersection<br/>Matched))
-        AB --- B["Table B (All Kept)"]
-    end
-    style A fill:#f9f9f9,stroke:#333,stroke-dasharray: 5 5
-    style AB fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style B fill:#ffeb3b,stroke:#333,stroke-width:2px
-
-```
-
 #### D. FULL OUTER JOIN
 
 Returns all records when there is a match in either the left or the right table. Rows with no match in either table will show `NULL` for the missing side.
 
 ```sql
 SELECT * FROM A FULL OUTER JOIN B ON A.Key = B.Key;
-
-```
-
-```mermaid
-graph LR
-    subgraph "FULL OUTER JOIN (Everything)"
-        A["Table A (All Kept)"] --- AB((Intersection<br/>Matched))
-        AB --- B["Table B (All Kept)"]
-    end
-    style A fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style AB fill:#ffeb3b,stroke:#333,stroke-width:2px
-    style B fill:#ffeb3b,stroke:#333,stroke-width:2px
 
 ```
 
@@ -255,23 +184,6 @@ SELECT t1.Size, t2.Color FROM Sizes AS t1 CROSS JOIN Colors AS t2;
 
 ```
 
-```mermaid
-graph TD
-    subgraph "Table A (Rows)"
-        A1[Row A1]
-        A2[Row A2]
-    end
-    subgraph "Table B (Rows)"
-        B1[Row B1]
-        B2[Row B2]
-    end
-    A1 -->|Combined with all| B1
-    A1 -->|Combined with all| B2
-    A2 -->|Combined with all| B1
-    A2 -->|Combined with all| B2
-
-```
-
 #### F. SELF JOIN
 
 A regular join, but the table is joined with itself. Useful for hierarchical data (e.g., Employee-Manager relationships).
@@ -280,15 +192,5 @@ A regular join, but the table is joined with itself. Useful for hierarchical dat
 SELECT emp.EmployeeName AS Employee, mgr.EmployeeName AS Manager
 FROM Employees AS emp
 LEFT JOIN Employees AS mgr ON emp.ManagerID = mgr.EmployeeID;
-
-```
-
-```mermaid
-graph TD
-    subgraph "Employees Table (Self-Referencing)"
-        E1[Employee Instance]
-        E2[Manager Instance]
-    end
-    E1 -->|ManagerID matches EmployeeID| E2
 
 ```
