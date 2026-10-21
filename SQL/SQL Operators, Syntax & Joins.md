@@ -1,4 +1,4 @@
-# Lecture Notes: SQL Operators, Syntax & Joins (SQL Server / T-SQL)
+# SQL Operators, Syntax & Joins (SQL Server / T-SQL)
 
 - **Topic:** RDBMS & SQL Server Programming
 - **Instructor: RAHUL KP**
