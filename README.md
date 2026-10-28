@@ -25,8 +25,8 @@
 - [x] **3. RDBMS - SQL Server Programming**
   - [x] SQL RDBMS Concepts
   - [x] SQL Data Types
-  - [ ] SQL Syntax
-  - [ ] SQL Operators
+  - [x] SQL Syntax
+  - [x] SQL Operators
   - [ ] SQL Joins
   - [ ] Views
   - [ ] Triggers & Cursors
