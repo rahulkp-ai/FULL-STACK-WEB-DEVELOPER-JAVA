@@ -36,7 +36,7 @@
   - [ ] SQL Subqueries
   - [ ] Database Backup & Restore
 
-- [ ] **4. JDBC (Java Database Connectivity)**
+- [x] **4. JDBC (Java Database Connectivity)**
   - [ ] JDBC Drivers
   - [ ] Advantages of JDBC
   - [ ] Environment Setup
