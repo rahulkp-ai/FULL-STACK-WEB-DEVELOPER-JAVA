@@ -37,10 +37,10 @@
   - [ ] Database Backup & Restore
 
 - [x] **4. JDBC (Java Database Connectivity)**
-  - [ ] JDBC Drivers
+  - [x] JDBC Drivers
   - [ ] Advantages of JDBC
-  - [ ] Environment Setup
-  - [ ] Connectivity with MySQL using JDBC
+  - [x] Environment Setup
+  - [x] Connectivity with MySQL using JDBC
 
 - [ ] **5. Servlets**
   - [ ] Introduction to Web Servers
