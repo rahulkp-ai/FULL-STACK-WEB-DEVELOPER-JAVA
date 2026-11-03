@@ -72,7 +72,7 @@
     - [x] GitHub Flow
     - [x] Git Flow
 
-- [ ] **9. Working with Servers**
+- [x] **9. Working with Servers**
   - [ ] Project Hosting on the Internet
   - [ ] Payment Gateway Integration
   - [ ] API Integration
